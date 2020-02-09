@@ -1,0 +1,36 @@
+<html>
+<head>
+    <script src="events.js" defer></script>
+
+    <style>
+        div {
+            border-color: red;
+            border-style: dashed;
+            margin: 50px;
+        }
+    </style>
+</head>
+<body>
+
+<!--<div onclick="alert('1st div')">-->
+<!--    1st div-->
+<!--    <div onclick="alert('2nd div')">-->
+<!--        2st div-->
+<!--        <div onclick="alert('3rd div')">-->
+<!--            3rd div-->
+<!--            <button onclick="alert('button clicked')">Click Event</button>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
+
+<div id="first">
+    <div id="second">
+        <div id="third">
+            <button id="button" onclick="buttonClick(event)">Click Me</button>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
